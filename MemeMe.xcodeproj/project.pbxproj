@@ -28,7 +28,7 @@
 		F3C08AD71E3A6A2E00AFB04E /* MemeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeTableViewCell.swift; sourceTree = "<group>"; };
 		F3C08AD91E3B1B3200AFB04E /* MemeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeCollectionViewCell.swift; sourceTree = "<group>"; };
 		F3C08ADB1E3B950500AFB04E /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
-		F3EB06061E31F2AE00ADB1A6 /* ImagePickerExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePickerExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EB06061E31F2AE00ADB1A6 /* MemeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3EB06091E31F2AE00ADB1A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3EB060B1E31F2AE00ADB1A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3EB060E1E31F2AE00ADB1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		F3EB05FD1E31F2AE00ADB1A6 = {
 			isa = PBXGroup;
 			children = (
-				F3EB06081E31F2AE00ADB1A6 /* ImagePickerExperiment */,
+				F3EB06081E31F2AE00ADB1A6 /* MemeMe */,
 				F3EB06071E31F2AE00ADB1A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +58,12 @@
 		F3EB06071E31F2AE00ADB1A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3EB06061E31F2AE00ADB1A6 /* ImagePickerExperiment.app */,
+				F3EB06061E31F2AE00ADB1A6 /* MemeMe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3EB06081E31F2AE00ADB1A6 /* ImagePickerExperiment */ = {
+		F3EB06081E31F2AE00ADB1A6 /* MemeMe */ = {
 			isa = PBXGroup;
 			children = (
 				F3EB06091E31F2AE00ADB1A6 /* AppDelegate.swift */,
@@ -79,15 +79,15 @@
 				F3C08AD91E3B1B3200AFB04E /* MemeCollectionViewCell.swift */,
 				F3C08ADB1E3B950500AFB04E /* EditViewController.swift */,
 			);
-			path = ImagePickerExperiment;
+			path = MemeMe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3EB06051E31F2AE00ADB1A6 /* ImagePickerExperiment */ = {
+		F3EB06051E31F2AE00ADB1A6 /* MemeMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3EB06181E31F2AE00ADB1A6 /* Build configuration list for PBXNativeTarget "ImagePickerExperiment" */;
+			buildConfigurationList = F3EB06181E31F2AE00ADB1A6 /* Build configuration list for PBXNativeTarget "MemeMe" */;
 			buildPhases = (
 				F3EB06021E31F2AE00ADB1A6 /* Sources */,
 				F3EB06031E31F2AE00ADB1A6 /* Frameworks */,
@@ -97,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = ImagePickerExperiment;
+			name = MemeMe;
 			productName = ImagePickerExperiment;
-			productReference = F3EB06061E31F2AE00ADB1A6 /* ImagePickerExperiment.app */;
+			productReference = F3EB06061E31F2AE00ADB1A6 /* MemeMe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F3EB06011E31F2AE00ADB1A6 /* Build configuration list for PBXProject "ImagePickerExperiment" */;
+			buildConfigurationList = F3EB06011E31F2AE00ADB1A6 /* Build configuration list for PBXProject "MemeMe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3EB06051E31F2AE00ADB1A6 /* ImagePickerExperiment */,
+				F3EB06051E31F2AE00ADB1A6 /* MemeMe */,
 			);
 		};
 /* End PBXProject section */
@@ -279,10 +279,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = E6MP3VPWC7;
-				INFOPLIST_FILE = ImagePickerExperiment/Info.plist;
+				INFOPLIST_FILE = MemeMe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iamqjin.ImagePickerExperiment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamqjin.MemeMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -294,10 +294,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = E6MP3VPWC7;
-				INFOPLIST_FILE = ImagePickerExperiment/Info.plist;
+				INFOPLIST_FILE = MemeMe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iamqjin.ImagePickerExperiment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamqjin.MemeMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -306,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3EB06011E31F2AE00ADB1A6 /* Build configuration list for PBXProject "ImagePickerExperiment" */ = {
+		F3EB06011E31F2AE00ADB1A6 /* Build configuration list for PBXProject "MemeMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3EB06161E31F2AE00ADB1A6 /* Debug */,
@@ -315,7 +315,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3EB06181E31F2AE00ADB1A6 /* Build configuration list for PBXNativeTarget "ImagePickerExperiment" */ = {
+		F3EB06181E31F2AE00ADB1A6 /* Build configuration list for PBXNativeTarget "MemeMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3EB06191E31F2AE00ADB1A6 /* Debug */,
