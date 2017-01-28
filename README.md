@@ -34,7 +34,9 @@ Meme App은 촬영한 이미지나 앨범에 있는 이미지를 이용하여 �
 1.공유버튼을 눌렀을 시 여러가지 옵션에 따라 작동하게 됩니다.
 
 <img src= "image/topbottom.png" width="300">
-<img src= "image/topbottom1.png" width="300"></br>
+<img src= "image/topbottom1.png" width="300">
+<img src= "image/share.png" width="300">
+
 
 ###* 이미지 삭제 화면
 
